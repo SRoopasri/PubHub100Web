@@ -24,7 +24,7 @@ public class FindByIdServlet extends HttpServlet {
 		Book book = new Book();
 
 		book.setId(id);
-
+   
 		BookDAO dao = new BookDAO();
 		
 		try {

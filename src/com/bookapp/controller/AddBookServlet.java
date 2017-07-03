@@ -20,7 +20,7 @@ public class AddBookServlet extends HttpServlet {
     
     public AddBookServlet() {
         super();
-       
+            
     }
 
 
@@ -32,7 +32,7 @@ public class AddBookServlet extends HttpServlet {
 	    book.setPrice(Price);
 		BookDAO bookdao=new BookDAO();
 		try {
-			bookdao.save(book);
+			bookdao.save(book);   
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

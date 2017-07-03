@@ -28,7 +28,7 @@ public class DeleteBookServlet extends HttpServlet {
 
 		Book book = new Book();
 
-		book.setId(id);
+		book.setId(id);     
 
 		BookDAO dao = new BookDAO();
 		try {

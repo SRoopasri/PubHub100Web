@@ -22,7 +22,7 @@ public class FindAllServlet extends HttpServlet {
 			throws ServletException, IOException {
 		BookDAO dao = new BookDAO();
 		List<Book> books;
-		try {
+		try { 
 			books = dao.findAll();
 			System.out.println(books.size());
 			if (books.size() > 0) {
